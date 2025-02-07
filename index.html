@@ -1,33 +1,39 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal - www.codingnepalweb.com -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Neumorphism Profile Card | CodingNepal</title>
-    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./script.js"></script>
   </head>
   <body>
     <div class="wrapper">
-      <div class="img-area">
-        <div class="inner-area">
-          <img
-            data-testid="profilePicture"
-            src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-            alt="" />
+      <div class="personal-content">
+        <div class="img-area">
+          <div class="inner-area">
+            <img
+              data-testid="profilePicture"
+              src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt="" />
+          </div>
+        </div>
+        <div class="personal-info">
+          <div data-testid="fullName" class="name">Name: Olaleye Obidiya</div>
+          <div data-testid="jobTitle" class="about">
+            Title: Senior Software Engineer
+          </div>
+          <div data-testid="emailAddress" class="about">
+            Email: olaleyeobidiya@gmail.com
+          </div>
+          <div data-testid="currentLocation" class="about">
+            Current Location: Abuja
+          </div>
+          <div id="dateTime" data-testid="currentTimeUTC" class="about"></div>
         </div>
       </div>
-      <div data-testid="fullName" class="name">Olaleye Obidiya</div>
-      <div data-testid="jobTitle" class="about">Senior Software Engineer</div>
-      <div data-testid="emailAddress" class="about">
-        olaleyeobidiya@gmail.com
-      </div>
-      <div data-testid="currentLocation" class="about">
-        Current Location: Abuja
-      </div>
-      <div data-testid="currentTimeUTC" class="about">Software Engineer</div>
       <div data-testid="shortBio" class="bio">
         <div>
           <h2>About me:</h2>
